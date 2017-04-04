@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #59A7D8
+}
+
+nav {
+	background-color: #72CAEF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+	font-family: helvetica, sans-serif;
+	
+}
+
+a:hover {
+	
+}
+
+.banner {
+	
+}
+
+.sidebar {
+	background-color: #CDEBEB;
+	width: 300px;
+	float: left;
+	margin: 0px 0 0px 0;
+	border: solid;
+	border-radius: 10px;
+	border-color: #3E738C;
+	font-family: helvetica, sans-serif;
+}
+
+.content {
+	background-color: #CDEBEB;
+	margin: 0 20px 0px 320px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: solid;
+	border-radius: 10px;
+	border-color: #3E738C;
+	font-family: helvetica, sans-serif;
+	width: 80%;
+}
+
+.contact {
+	color: #A1ABAB;
+	text-align: left;
+	font-size: 10pt;
+	padding-top: 70px;
+	width: 100%;
+}
+
+.bold {
+	font-weight: bold;
+} 
+
+.signup {
+	background-color: #D3B535;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.inputfield {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.pressednav {
+	background-color: #7C8C94;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+.announcement {
+	color: #263557;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.formbuttons {
+	background-color: #D3B535;
+	color: white;
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+	text-align: center;
+	width: 250px;
+}
+
+#accept {
+	background-color: #D3B535;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+	width: 200px;
+}
+
+#whocanplay {
+	background-color: #B4D4D4;
+	margin: 0px 50px 50px 50px;
+	text-align: center;
+	font-size: 10pt;
+	
+}
+
+#signuppressed {
+	background-color: #7C8C94;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 14pt;
+	font-weight: bold;
+}
