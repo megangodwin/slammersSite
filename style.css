@@ -38,7 +38,7 @@ h3 {
 a:link {
 	text-decoration: none;
 	color: white;
-	font-family: helvetica, sans-serif;
+	font-family: inherit, helvetica, sans-serif;
 }
 
 a:hover {
@@ -52,7 +52,6 @@ a:visited {
 }
 
 .center {
-	background-color: red;
 	margin: 0 200px 0 200px;
 }
 
@@ -63,8 +62,9 @@ a:visited {
 .banner {
 	height: 200px;
 	background-color: #cddfff;
-	background-image: url(images/banner.png);
 	background-repeat: no-repeat;
+	background-image: url(images/banner.png);
+	background-position: center;
 	margin: -20px -20px 0 -20px;
 }
 
@@ -89,11 +89,18 @@ a:visited {
 	font-family: helvetica, sans-serif;
 }
 
+.contentimg {
+	max-width: 500px;
+	padding: 20px 0;
+	left: 50%;
+	margin: 0 auto;
+}
+
 .contact {
-	color: #A1ABAB;
+	color: #A09586;
 	text-align: left;
 	font-size: 10pt;
-	padding: 70px 5px 10px 0;
+	padding: 70px 0px 10px 5px;
 	width: 100%;
 }
 
@@ -103,7 +110,7 @@ a:visited {
 } 
 
 .signup {
-	background-color: #D3B535;
+	background-color: #D3A135;
 	color: white;
 	padding: 10px;
 	font-size: 14pt;
@@ -139,20 +146,22 @@ a:visited {
 }
 
 .calltoaction {
-	background-color: #D3B535;
-	color: white;
-	font-size: 14pt;
-	padding: 10px 5px 10px 5px;
 	font-weight: bold;
+	width: 150px;
+	font-size: 14pt;
 	text-align: center;
-	width: 200px;
+	color: white;
+	padding: 10px;
 	margin: 20px auto;
 	left: 50%;
+	background-color: #D3A135;
 	font-family: pacifico;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	border-radius: 10px;
 }
 
 #accept {
-	background-color: #D3B535;
+	background-color: #D3A135;
 	color: white;
 	padding: 10px 5px;
 	font-size: 14pt;
