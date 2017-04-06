@@ -2,78 +2,110 @@
 /* CSS Document */
 
 body {
-	background-color: #59A7D8
+	background-color: #1a263a;
 }
 
 nav {
-	background-color: #72CAEF;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	background-color: #cddfff;
+	padding: 5px 5px;
 }
 
 h1 {
-	
+	padding-top: 40px;
+	padding-left: 70px;
+	color: 	#1a263a;
+	font-size: 38pt;
+	font-weight: bold;
+	font-family: pacifico;
 }
 
 h2 {
-	
+	padding-left: 90px;
+	font-size: 24pt;
+	margin: -40px 0 0 0;
+	color: 	#1a263a;
+	font-family: pacifico;
+}
+
+h3 {
+	font-size: 18pt;
+	color: #1A3C49;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 0 0 0 10px;
 }
 
 a:link {
 	text-decoration: none;
 	color: white;
 	font-family: helvetica, sans-serif;
-	
 }
 
 a:hover {
+	background-color: #E0D4B5;
+	display: block;
 	
 }
 
-.banner {
+a:visited {
+	color: white;
+}
+
+.center {
+	background-color: red;
+	margin: 0 200px 0 200px;
+}
+
+.image {
 	
+}	
+	
+.banner {
+	height: 200px;
+	background-color: #cddfff;
+	background-image: url(images/banner.png);
+	background-repeat: no-repeat;
+	margin: -20px -20px 0 -20px;
 }
 
 .sidebar {
-	background-color: #CDEBEB;
+	background-color: #ffdbbb;
 	width: 300px;
+	margin: 20px 0;
 	float: left;
-	margin: 0px 0 0px 0;
 	border: solid;
 	border-radius: 10px;
-	border-color: #3E738C;
+	border-color: #B97F53;
 	font-family: helvetica, sans-serif;
 }
 
 .content {
-	background-color: #CDEBEB;
-	margin: 0 20px 0px 320px;
-	padding-left: 20px;
-	padding-right: 20px;
+	background-color: #ffdbbb;
+	margin: 20px 200px 0 520px;
+	padding: 20px;
 	border: solid;
 	border-radius: 10px;
-	border-color: #3E738C;
+	border-color: #B97F53;
 	font-family: helvetica, sans-serif;
-	width: 80%;
 }
 
 .contact {
 	color: #A1ABAB;
 	text-align: left;
 	font-size: 10pt;
-	padding-top: 70px;
+	padding: 70px 5px 10px 0;
 	width: 100%;
 }
 
 .bold {
 	font-weight: bold;
+	padding: inherit;
 } 
 
 .signup {
 	background-color: #D3B535;
 	color: white;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding: 10px;
 	font-size: 14pt;
 	font-weight: bold;
 }
@@ -84,16 +116,17 @@ a:hover {
 }
 
 .pressednav {
-	background-color: #7C8C94;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	background-color: #8AA5B3;
+	padding: 10px 10px;
 	color: white;
 }
 
 .announcement {
+	background-color: #BAC8C8;
 	color: #263557;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin: 0 0 20px 0;
 }
 
 .formbuttons {
@@ -105,32 +138,34 @@ a:hover {
 	width: 250px;
 }
 
+.calltoaction {
+	background-color: #D3B535;
+	color: white;
+	font-size: 14pt;
+	padding: 10px 5px 10px 5px;
+	font-weight: bold;
+	text-align: center;
+	width: 200px;
+	margin: 20px auto;
+	left: 50%;
+	font-family: pacifico;
+}
+
 #accept {
 	background-color: #D3B535;
 	color: white;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 5px;
-	padding-left: 5px;
+	padding: 10px 5px;
 	font-size: 14pt;
 	font-weight: bold;
 	text-align: center;
 	width: 200px;
-}
-
-#whocanplay {
-	background-color: #B4D4D4;
-	margin: 0px 50px 50px 50px;
-	text-align: center;
-	font-size: 10pt;
-	
+	margin: 0 auto;
 }
 
 #signuppressed {
 	background-color: #7C8C94;
 	color: white;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding: 10px 10px;
 	font-size: 14pt;
 	font-weight: bold;
 }
